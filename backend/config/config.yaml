@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  type: sqlite
+  sqlite:
+    path: ./tourism.db
+
+jwt:
+  secret: tourism-wechat-secret-key-2024
+  expire: 24
+
+admin:
+  default_username: admin
+  default_password: admin123
